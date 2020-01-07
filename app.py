@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 import json
+from youtube_api import YoutubeApi
 
-# url: https://www.youtube.com/user/globalmtb/videos
+url_template = "https://www.youtube.com/user/{}/videos"
 
 config = ''
 def load_config():
@@ -9,5 +10,8 @@ def load_config():
 
 if __name__ == '__main__':
     config = load_config()
+    yt = YoutubeApi(config['api_key'])
+
     for channel in config['channels']:
-        print(channel['name'])
+        url = url_template.format(channel['id'])
+        yt.get_videos(url)

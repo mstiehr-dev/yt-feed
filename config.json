@@ -1,12 +1,15 @@
 {
-  "api-key": "",
+  "api_key": "<INSERT_KEY",
   "database": "",
   "channels": [
-    {"name": "sam pilgrim", "id": "leopardheadking"},
-    {"name": "gmbn", "id": "globalmtb"},
-    {"name": "vancan", "id": "UC99DEU9s-Z_h4a2U3Hm7ApA"},
-    {"name": "tom cardy", "id": "Tomcardy1993"},
-    {"name": "fabio wibmer", "id": "fabwibmer"},
-    {"name": "fabio schäfer", "id": "peterklausish"}
+    {"name": "sam pilgrim", "username": "leopardheadking", "id": "UC-WMwOzgFdvvGVLB1EZ-n-w"},
+    {"name": "gmbn", "username": "globalmtb"},
+    {"name": "vancan", "username": "UC99DEU9s-Z_h4a2U3Hm7ApA"},
+    {"name": "tom cardy", "username": "Tomcardy1993"},
+    {"name": "fabio wibmer", "username": "fabwibmer"},
+    {"name": "fabio schäfer", "username": "peterklausish"},
+    {"name": "leo kast", "username": "WeltraumaffeDH"},
+    {"name": "daily mtb rider", "username": "UCHMfbHsJZCqRtSCVLV-RnYA"},
+    {"name": "skills with phil", "username": "ThePhilkmetz"}
   ]
 }
