@@ -1,6 +1,6 @@
 {
   "api_key": "<INSERT_KEY",
-  "database": "",
+  "database": "./db.json",
   "channels": [
     {"name": "sam pilgrim", "username": "leopardheadking", "id": "UC-WMwOzgFdvvGVLB1EZ-n-w"},
     {"name": "gmbn", "username": "globalmtb"},
